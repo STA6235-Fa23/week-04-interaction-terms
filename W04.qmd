@@ -1,0 +1,183 @@
+---
+title: "STA6235 Week 4"
+author: "Your Name Here"
+format: 
+  html:
+    self-contained: true
+execute:
+  echo: true
+  warning: false
+  message: false
+  error: true
+editor: source
+---
+
+## Tuesday, September 12 (Happy Birthday Harper 🥳) 
+
+1. From last week(s): pull in the [Palmer penguins dataset](https://allisonhorst.github.io/palmerpenguins/).
+
+```{r}
+
+```
+
+2. Model penguin body mass (*body_mass_g*) as a function of species (*species*), flipper length (*flipper_length_mm*), bill length (*bill_length_mm*), and the interaction between flipper length and bill length. Remember to state the resulting regression model.
+
+```{r}
+
+```
+
+3. Is the interaction significant? Remember to typeset the corresponding hypothesis test.
+
+```{r}
+
+```
+
+4. Use the model stated in 2 to construct the following models:
+
+- a model for gentoos with a bill length of 44 mm
+- a model for chinstraps with a bill length of 44 mm
+- a model for Adelies with a bill length of 44 mm
+
+<!-- I am including the below to show you how to use the align* environment. 
+     You can go into 09/12's lecture .qmd file to see how I typeset the example. -->
+     
+**Gentoos:**     
+$$
+\begin{align*}
+\hat{y} &= \hat{\beta}_0 + ... + \hat{\beta}_k x_k \\
+&= \hat{\beta}_0 + ... + \hat{\beta}_k x_k \\
+&= \hat{\beta}_0 + ... + \hat{\beta}_k x_k
+\end{align*}
+$$
+
+**Chinstraps:**     
+$$
+\begin{align*}
+\hat{y} &= \hat{\beta}_0 + ... + \hat{\beta}_k x_k \\
+&= \hat{\beta}_0 + ... + \hat{\beta}_k x_k \\
+&= \hat{\beta}_0 + ... + \hat{\beta}_k x_k
+\end{align*}
+$$
+
+**Adelies:**     
+$$
+\begin{align*}
+\hat{y} &= \hat{\beta}_0 + ... + \hat{\beta}_k x_k \\
+&= \hat{\beta}_0 + ... + \hat{\beta}_k x_k \\
+&= \hat{\beta}_0 + ... + \hat{\beta}_k x_k
+\end{align*}
+$$
+
+5. Use the simplified models in 4 to create the following predicted values
+
+- `gentoo`: a value for gentoos with a bill length of 44 mm
+- `chinstrap`: a value for chinstraps with a bill length of 44 mm
+- `adelie`: a value for Adelies with a bill length of 44 mm
+
+```{r}
+
+```
+
+6. Construct an appropriate data visualization utilizing the predicted values from 5.
+
+<!-- Again, remember that you have my .qmd file for lecture;
+     please take that code and edit it to what you need for homework! -->
+
+```{r}
+
+```
+
+## Thursday, September 14
+
+7. Model penguin body mass (*body_mass_g*) as a function of species (*species*), flipper length (*flipper_length_mm*), bill length (*bill_length_mm*), the interaction between flipper length and bill length, and the interaction between species and bill length. Remember to state the resulting regression model.
+
+```{r}
+
+```
+
+8. Is the interaction between flipper length and bill length significant? Remember to typeset the corresponding hypothesis test.
+
+```{r}
+
+```
+
+9. Is the interaction between species and bill length significant? Remember to typeset the corresponding hypothesis test.
+
+```{r}
+
+```
+
+10. Use the model stated in 7 to construct the following models:
+
+- a model for gentoos with a bill length of 44 mm
+- a model for chinstraps with a bill length of 44 mm
+- a model for Adelies with a bill length of 44 mm
+
+<!-- I am including the below to show you how to use the align* environment. 
+     You can go into 09/12's lecture .qmd file to see how I typeset the example. -->
+     
+**Gentoos:**     
+$$
+\begin{align*}
+\hat{y} &= \hat{\beta}_0 + ... + \hat{\beta}_k x_k \\
+&= \hat{\beta}_0 + ... + \hat{\beta}_k x_k \\
+&= \hat{\beta}_0 + ... + \hat{\beta}_k x_k
+\end{align*}
+$$
+
+**Chinstraps:**     
+$$
+\begin{align*}
+\hat{y} &= \hat{\beta}_0 + ... + \hat{\beta}_k x_k \\
+&= \hat{\beta}_0 + ... + \hat{\beta}_k x_k \\
+&= \hat{\beta}_0 + ... + \hat{\beta}_k x_k
+\end{align*}
+$$
+
+**Adelies:**     
+$$
+\begin{align*}
+\hat{y} &= \hat{\beta}_0 + ... + \hat{\beta}_k x_k \\
+&= \hat{\beta}_0 + ... + \hat{\beta}_k x_k \\
+&= \hat{\beta}_0 + ... + \hat{\beta}_k x_k
+\end{align*}
+$$
+
+11. Use the simplified models in 4 to create the following predicted values
+
+- `gentoo`: a value for gentoos with a bill length of 44 mm
+- `chinstrap`: a value for chinstraps with a bill length of 44 mm
+- `adelie`: a value for Adelies with a bill length of 44 mm
+
+```{r}
+
+```
+
+12. Construct an appropriate data visualization utilizing the predicted values from 11.
+
+<!-- Again, remember that you have my .qmd file for lecture;
+     please take that code and edit it to what you need for homework! -->
+
+```{r}
+
+```
+
+13. Perform model assumption checking and diagnostics. You should include statements (and R code backing up your statements) about the model assumptions, potential outliers, potential influential and leverage points, and multicollinearity. 
+
+```{r}
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
